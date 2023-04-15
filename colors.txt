@@ -1,0 +1,13 @@
+color 1: #2D0589
+
+color 2: #E10ECD
+
+color 3: #c296d9
+
+color 4: #e1bff0
+
+color 5: #7c7cb8
+
+color 6: #fff
+
+at min : 13 min left

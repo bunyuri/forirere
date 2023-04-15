@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.0.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+    <title>FORIRERE</title>
+</head>
+<body>
+    <nav>
+        <img src="assets/images/logo.png" alt="logo">
+        <div class="navigation">
+            <ul>
+                <i id="menu-close" class="ri-close-line"></i>
+                <li><a href="index.html">Home</a></li>
+                <li><a class="active" href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <img id="menu-btn" src="assets/images/menu-3-line.svg">
+        </div>
+    </nav>
+
+    <section id="about-home">
+        <h2>About Us</h2>
+    </section>
+
+    <section id="about-container">
+        <div class="about-img">
+            <img src="assets/images/graduation.png">
+        </div>
+        <div class="about-text">
+            <h2>Enhance your skills with the best universities globally</h2>
+            <p>Students of all ages and all walks of life, are welcome. There is always 
+                room to learn new things or to improve
+                what you already know. </p>
+
+                <div class="about-fe">
+                    <img src="assets/images/mission.svg" alt="">
+                    <div class="fe-text">
+                        <h5>Mission</h5>
+                        <p>Our mission is to ease the application process, and to help as many
+                            students as possible get outstanding education in some of the best universities in the world </p>
+                    </div>
+                </div>
+
+                <div class="about-fe">
+                    <img src="assets/images/vision.svg" alt="">
+                    <div class="fe-text">
+                        <h5>Vision</h5>
+                        <p>Our vision as an agency is to be recognized on a national and international level, 
+                            as an agency that contributes to the increase of educated individuals.
+                        </p>
+                    </div>
+                </div>
+        </div>
+    </section>
+    
+    </div>
+
+   
+    <footer>
+        <div class="logo">
+            <img src="assets/images/logo.png">
+        </div>
+        <div class="footer-col">
+            <h3>Services</h3>
+            <li>University Application</li>
+            <li>Course Selection</li>
+            <li>Visa Application</li>
+        </div>
+
+        <div class="footer-col">
+            <h3>Quick Links</h3>
+            <li> <a href="about.html"> About Us</a></li>
+            <li> <a href="contact.html">Contact Us</a></li>
+        </div>
+
+        <div class="footer-col">
+            <h3>Social Media</h3>
+            <a href=""><i class="ri-instagram-fill"></i></a>
+            <a href=""><i class="ri-linkedin-fill"></i></a>
+            <a href=""><i class="ri-facebook-fill"></i></a>      
+        </div>
+        <hr>
+        <div class="copyright">
+           <span>Copyright <i class="ri-copyright-line"></i>2023 All rights reserved | Made by Ishimwe</span>
+        </div>
+    </footer>
+
+    <script>
+         $('#menu-btn').click(function(){
+            $('nav .navigation ul').addClass('active')
+        });
+
+        $('#menu-close').click(function(){
+            $('nav .navigation ul').removeClass('active')
+        });
+    </script>
+    
+</body>
+</html>

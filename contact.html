@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.0.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+    <title>FORIRERE</title>
+</head>
+<body>
+    <nav>
+        <img src="assets/images/logo.png" alt="logo">
+        <div class="navigation">
+            <ul>
+                <i id="menu-close" class="ri-close-line"></i>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a class="active"  href="contact.html">Contact</a></li>
+            </ul>
+            <img id="menu-btn" src="assets/images/menu-3-line.svg">
+        </div>
+    </nav>
+
+    <section id="about-home">
+        <h2>Contact Us</h2>
+    </section>
+
+    <div id="contact">
+        <div class="getin">
+            <h2>Get in touch</h2>
+            <p>We are here to help everyone who is interested in studying overseas.</p>
+            <div class="getin-details">
+                <h3>Headquaters</h3>
+                <div>
+                    <i class="ri-building-fill get"></i>
+                    <p>KG 599 ST, House 13, <br> Gishushu, Kigali, Rwanda</p>
+                </div>
+
+                <h3>Phone Number</h3>
+                <div>
+                    <i class="ri-phone-fill get"></i>
+                    <p>+250 786 242 766</p>
+                </div>
+
+                <h3>Support</h3>
+                <div>
+                    <i class="ri-mail-fill get"></i>
+                    <p>chedrochedro@gmail.com</p>
+                </div>
+                <h3>Social Media</h3>
+                <div class="pro-links">
+                    <a href=""><i class="ri-instagram-fill"></i></a>
+                    <a href=""><i class="ri-linkedin-fill"></i></a>
+                    <a href=""><i class="ri-facebook-fill"></i></a>
+                 </div>
+            </div>
+        </div>
+
+        <section id="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d996.8723805542966!2d30.103517350264042!3d-1.9577089133858168!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sforirere%20consult!5e0!3m2!1sen!2srw!4v1681580969765!5m2!1sen!2srw" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+
+    </div>
+
+
+   
+    <footer>
+        <div class="logo">
+            <img src="assets/images/logo.png">
+        </div>
+        <div class="footer-col">
+            <h3>Services</h3>
+            <li>University Application</li>
+            <li>Course Selection</li>
+            <li>Visa Application</li>
+        </div>
+
+        <div class="footer-col">
+            <h3>Quick Links</h3>
+            <li> <a href="about.html"> About Us</a></li>
+            <li> <a href="contact.html">Contact Us</a></li>
+        </div>
+
+        <div class="footer-col">
+            <h3>Social Media</h3>
+            <a href=""><i class="ri-instagram-fill"></i></a>
+            <a href=""><i class="ri-linkedin-fill"></i></a>
+            <a href=""><i class="ri-facebook-fill"></i></a>      
+        </div>
+        <hr>
+        <div class="copyright">
+           <span>Copyright <i class="ri-copyright-line"></i>2023 All rights reserved | Made by Ishimwe</span>
+        </div>
+    </footer>
+
+    <script>
+         $('#menu-btn').click(function(){
+            $('nav .navigation ul').addClass('active')
+        });
+
+        $('#menu-close').click(function(){
+            $('nav .navigation ul').removeClass('active')
+        });
+    </script>
+    
+</body>
+</html>
